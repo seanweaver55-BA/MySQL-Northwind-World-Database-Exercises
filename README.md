@@ -5,7 +5,7 @@ The aim of these tasks is to simulate real-world business scenarios and data ana
 
 ---
 
-##  Northwind Traders – Beginner SQL Tasks
+## 🏢 Northwind Traders – Beginner SQL Tasks
 
 ### 1. Retrieve Full Customer Data
 Query to select all columns from the `Customers` table.
@@ -58,3 +58,30 @@ Products priced between 20 and 50, ordered by descending price.
 
 ### 8. Local Marketing in the US (Portland & Kirkland)
 Customers in Portland or Kirkland, ordered by `CustomerName`.
+
+<img width="538" height="80" alt="Query Result 8" src="https://github.com/user-attachments/assets/4fd1da6d-fbc7-4e87-8bec-04569e81719f" />
+
+---
+
+### 9. Customers from the UK or London
+Customers where `Country = 'UK'` or `City = 'London'`.
+
+<img width="392" height="76" alt="Query Result 9" src="https://github.com/user-attachments/assets/ec4cdd5a-9b87-4dee-980b-cf9dd658948f" />
+
+---
+
+### 10. Product Inventory for Selected Categories
+Products from Category 1 or 2, ordered by `ProductName`.
+
+<img width="287" height="96" alt="Query Result 10" src="https://github.com/user-attachments/assets/d7ac3e34-a7dd-446b-b81d-333c0fb8731e" />
+
+---
+
+
+---
+
+## Tools Used
+- **MySQL Workbench** – query writing and execution.  
+- **Northwind & World Databases** – structured sample datasets for practice.  
+
+---
