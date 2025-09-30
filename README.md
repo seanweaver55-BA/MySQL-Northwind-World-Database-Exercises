@@ -1,171 +1,60 @@
 # SQL Practice Projects – Northwind & World Databases
 
-This repository contains a collection of SQL queries and exercises completed using MySQL Workbench. The projects are built on the classic **Northwind** and **World** sample databases and are designed to simulate practical business and data analysis scenarios.
+This repository contains a series of SQL exercises I completed using **MySQL Workbench** on the classic **Northwind** and **World** sample databases.  
+The aim of these tasks is to simulate real-world business scenarios and data analysis problems commonly faced by analysts.
 
 ---
 
-## Northwind Traders – Core SQL Tasks
+## 🏢 Northwind Traders – Beginner SQL Tasks
 
 ### 1. Retrieve Full Customer Data
-Query returning all columns from the Customers table.  
-`screenshot`
+Query to select all columns from the `Customers` table.
+
+<img width="261" height="29" alt="Query Result 1" src="https://github.com/user-attachments/assets/b277fda6-f110-4143-8c02-6a61af8655a8" />
+
+---
 
 ### 2. Customer Names and Cities for Marketing
-Query selecting only CustomerName and City from the Customers table.  
-`screenshot`
+Query to retrieve only `CustomerName` and `City`.
 
-### 3. Unique Cities for Delivery Expansion
-Query using `DISTINCT` to return unique city values from Customers.  
-`screenshot`
-
-### 4. High-Value Products
-Query retrieving all products with a price above £50.  
-`screenshot`
-
-### 5. International Customers (USA & UK)
-Query selecting customers where Country = 'USA' or 'UK'.  
-`screenshot`
-
-### 6. Recent Orders
-Query retrieving all orders ordered by OrderDate descending.  
-`screenshot`
-
-### 7. Mid-Range Products
-Query filtering products priced between £20 and £50, sorted by descending price.  
-`screenshot`
-
-### 8. Local Marketing in the US
-Query retrieving customers in Portland or Kirkland (USA), ordered by CustomerName.  
-`screenshot`
-
-### 9. Customers from the UK or London
-Query selecting customers where Country = 'UK' or City = 'London'.  
-`screenshot`
-
-### 10. Product Inventory by Category
-Query retrieving products in Category 1 or 2, ordered by ProductName.  
-`screenshot`
+<img width="287" height="59" alt="Query Result 2" src="https://github.com/user-attachments/assets/91f10e5e-ee10-4963-b4ef-6c7e0352afe1" />
 
 ---
 
-## Northwind – Advanced SQL Tasks
+### 3. Unique Cities for Delivery Network Expansion
+Query to return distinct values from the `City` column.
 
-### 1. Products and Suppliers
-Query joining Products with Suppliers to identify providers.  
-`screenshot`
-
-### 2. Product Categories
-Query linking products to their categories.  
-`screenshot`
-
-### 3. Meat/Poultry Products
-Query selecting all products in the Meat/Poultry category.  
-`screenshot`
-
-### 4. Order Overview
-Query retrieving OrderID, OrderDate, Customer Name, and Employee Name.  
-`screenshot`
-
-### 5. Supply Chain Report
-Query joining Product, Category, and Supplier tables.  
-`screenshot`
-
-### 6. Orders in 1996
-Query retrieving all orders placed in 1996.  
-`screenshot`
-
-### 7. Product Count by Category
-Query returning categories with their respective product counts.  
-`screenshot`
-
-### 8. Sales Volume
-Query showing products, prices, and quantities ordered.  
-`screenshot`
+<img width="233" height="59" alt="Query Result 3" src="https://github.com/user-attachments/assets/dc2265a5-d8a9-42fb-97a5-90ad9079155d" />
 
 ---
 
-## World Database – Global Insights
+### 4. High-Value Products Report
+Products from the `Products` table where `Price > 50`.
 
-### 1. Count Cities in the USA
-Query counting total cities where Country = 'USA'.  
-`screenshot`
-
-### 2. Country with Highest Life Expectancy
-Query selecting the top country by life expectancy.  
-`screenshot`
-
-### 3. Cities Containing 'New'
-Query filtering city names containing 'New'.  
-`screenshot`
-
-### 4. First 10 Most Populous Cities
-Query using `LIMIT` to show the top 10 most populous cities.  
-`screenshot`
-
-### 5. Cities Over 2 Million Population
-Query returning cities with populations above 2,000,000.  
-`screenshot`
-
-### 6. Cities Beginning with 'Be'
-Query filtering cities starting with 'Be'.  
-`screenshot`
-
-### 7. Mid-Sized Cities
-Query returning cities with population between 500,000 and 1,000,000.  
-`screenshot`
-
-### 8. Cities Sorted Alphabetically
-Query ordering cities in ascending alphabetical order.  
-`screenshot`
-
-### 9. Most Populated City
-Query selecting the city with the highest population.  
-`screenshot`
-
-### 10. City Name Frequency
-Query counting unique city names and their frequency.  
-`screenshot`
-
-### 11. Lowest Population City
-Query identifying the city with the smallest population.  
-`screenshot`
-
-### 12. Country with Largest Population
-Query selecting the most populous country.  
-`screenshot`
-
-### 13. Capital of Spain
-Query identifying the capital city of Spain.  
-`screenshot`
-
-### 14. European Cities
-Query selecting all cities located in Europe.  
-`screenshot`
-
-### 15. Average Population by Country
-Query calculating average city population per country.  
-`screenshot`
-
-### 16. Capital City Populations
-Query comparing population sizes of capital cities.  
-`screenshot`
-
-### 17. Countries with Low Density
-Query returning countries with low population density.  
-`screenshot`
-
-### 18. High GDP per Capita Cities
-Query selecting cities with above-average GDP per capita.  
-`screenshot`
-
-### 19. Cities Ranked 31–40 by Population
-Query showing cities ranked between 31st and 40th by population.  
-`screenshot`
+<img width="318" height="58" alt="Query Result 4" src="https://github.com/user-attachments/assets/64a1eb27-ad16-4d63-813c-f253f04de378" />
 
 ---
 
-## Tools Used
-- MySQL Workbench  
-- Northwind & World sample databases  
+### 5. International Customers Targeting (USA & UK)
+Customers where the `Country` is either 'USA' or 'UK'.
+
+<img width="322" height="72" alt="Query Result 5" src="https://github.com/user-attachments/assets/3975009b-43a2-46a0-a8d7-bc5c2ab8c81a" />
 
 ---
+
+### 6. Recent Orders Report
+Orders sorted by `OrderDate` in descending order.
+
+<img width="257" height="75" alt="Query Result 6" src="https://github.com/user-attachments/assets/78ff7539-4ed7-4413-9362-8590d46351fb" />
+
+---
+
+### 7. Mid-Range Products Listing
+Products priced between 20 and 50, ordered by descending price.
+
+<img width="263" height="75" alt="Query Result 7" src="https://github.com/user-attachments/assets/42345695-b6e1-46ff-b8e4-b614a1be8107" />
+
+---
+
+### 8. Local Marketing in the US (Portland & Kirkland)
+Customers in Portland or Kirkland, ordered by `CustomerName`.
