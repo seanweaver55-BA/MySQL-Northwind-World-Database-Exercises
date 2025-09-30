@@ -5,7 +5,7 @@ The aim of these tasks is to simulate real-world business scenarios and data ana
 
 ---
 
-## 🏢 Northwind Traders – Beginner SQL Tasks
+## Northwind Traders – Beginner SQL Tasks
 
 ### 1. Retrieve Full Customer Data
 Query to select all columns from the `Customers` table.
