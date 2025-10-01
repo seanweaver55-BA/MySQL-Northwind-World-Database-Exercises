@@ -87,79 +87,79 @@ This project demonstrates a series of SQL queries carried out on the classic **W
 
 ### 1. Counting Cities in the USA
 Retrieve the total number of cities recorded in the United States.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/1e6b98b4-83a2-4b3e-b413-860b702f558f" alt="Count Cities in USA" width="600"/>
 
 ### 2. Country with the Highest Life Expectancy
 Identify which country reports the longest life expectancy.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/07efa34b-0789-4530-9c20-d0c7c4913f0b" alt="Country Highest Life Expectancy" width="600"/>
 
 ### 3. Cities Containing "New"
 Return all cities with the word "New" in their names.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/002f7acc-4cf0-498d-a3bb-8dc4af050951" alt="Cities with New" width="600"/>
 
 ### 4. Top 10 Most Populous Cities
 Use `LIMIT` to display the ten largest cities by population.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/5b4ee8f5-abbc-42f2-9cc1-936a11b187c6" alt="Top 10 Cities" width="600"/>
 
 ### 5. Cities Above 2 Million Population
 List cities where the population exceeds 2,000,000.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/7f432bb0-84e2-4ede-81b3-d674bfe865bb" alt="Cities Over 2M" width="600"/>
 
 ### 6. Cities Beginning with "Be"
 Retrieve all cities whose names start with the prefix "Be".  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/bad7caaa-4880-422f-a033-63f7c55c034d" alt="Cities Beginning with Be" width="600"/>
 
 ### 7. Mid-Sized Cities (500K–1M)
 Identify cities with populations ranging between 500,000 and 1,000,000.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/301c5942-5fa7-42ec-b5d6-fdb5aa309d99" alt="Mid-Sized Cities" width="600"/>
 
 ### 8. Cities in Alphabetical Order
 Display the complete list of cities sorted A–Z.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/9190f2aa-cc4f-4b1d-97e2-026352dc067d" alt="Cities Alphabetical" width="600"/>
 
 ### 9. Most Populated City
 Return the single most populated city in the database.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/e5e06fb1-94ce-4a8b-8b78-18dd3af35b5b" alt="Most Populated City" width="600"/>
 
 ### 10. Frequency of City Names
 List unique city names and show how many times each occurs.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/ee6339ca-565d-4760-a572-04aa1da1faa8" alt="City Name Frequency" width="600"/>
 
 ### 11. City with the Smallest Population
 Identify the city with the lowest population value.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/44a571f9-fef0-40f9-bf74-e79f754a47ce" alt="Lowest Population City" width="600"/>
 
 ### 12. Country with the Largest Population
 Retrieve the country with the highest national population.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/d51f0f28-dad4-464b-b404-57c655ed6365" alt="Country with Largest Population" width="600"/>
 
 ### 13. Capital of Spain
 Query the capital city of Spain.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/ed89e53b-32f2-494c-b6f0-4a847ebbdf1a" alt="Capital of Spain" width="600"/>
 
 ### 14. Cities in Europe
 Return all cities located within European countries.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/5f6d6c20-e6f3-4427-b26b-18e86343c4c0" alt="Cities in Europe" width="600"/>
 
 ### 15. Average Population per Country
 Calculate the mean city population for each country.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/6bf65290-4fc9-4f95-b22b-e8c24595f861" alt="Average Population by Country" width="600"/>
 
 ### 16. Comparing Capital City Populations
 Compare the populations of capital cities across all countries.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/6c7e2b35-c55d-4519-9cbf-fd493adea5c6" alt="Capital Populations" width="600"/>
 
 ### 17. Countries with Low Population Density
 Identify countries where population density is relatively low.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/0074aae7-029d-462d-a94c-a71273734815" alt="Low Population Density" width="600"/>
 
 ### 18. Cities with High GDP per Capita
 List cities with GDP per capita values above the global average.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/faf12471-c73a-4503-8a90-eb19d0053b9b" alt="Cities with High GDP" width="600"/>
 
 ### 19. Cities Ranked 31–40 by Population
 Display the cities ranked between 31st and 40th in terms of population size.  
-*screenshot*
+<img src="https://github.com/user-attachments/assets/dc05bfa8-9a02-4a37-93b3-acf35c049674" alt="Cities 31–40 by Population" width="600"/>
 
 ---
 
@@ -167,8 +167,6 @@ Display the cities ranked between 31st and 40th in terms of population size.
 - **MySQL Workbench** — for running and testing queries  
 - **World Sample Database** — dataset containing countries, cities, and population/economic statistics  
 
-
----
 
 ## Tools Used
 - **MySQL Workbench** – query writing and execution.  
