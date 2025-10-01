@@ -77,6 +77,96 @@ Products from Category 1 or 2, ordered by `ProductName`.
 
 ---
 
+# Global Insights — World Database (SQL Practice)
+
+This project demonstrates a series of SQL queries carried out on the classic **World** sample database. Each task explores population, geography, and economic data to answer analytical questions commonly encountered in real-world business and research scenarios.  
+
+---
+
+## Queries Completed
+
+### 1. Counting Cities in the USA
+Retrieve the total number of cities recorded in the United States.  
+*screenshot*
+
+### 2. Country with the Highest Life Expectancy
+Identify which country reports the longest life expectancy.  
+*screenshot*
+
+### 3. Cities Containing "New"
+Return all cities with the word "New" in their names.  
+*screenshot*
+
+### 4. Top 10 Most Populous Cities
+Use `LIMIT` to display the ten largest cities by population.  
+*screenshot*
+
+### 5. Cities Above 2 Million Population
+List cities where the population exceeds 2,000,000.  
+*screenshot*
+
+### 6. Cities Beginning with "Be"
+Retrieve all cities whose names start with the prefix "Be".  
+*screenshot*
+
+### 7. Mid-Sized Cities (500K–1M)
+Identify cities with populations ranging between 500,000 and 1,000,000.  
+*screenshot*
+
+### 8. Cities in Alphabetical Order
+Display the complete list of cities sorted A–Z.  
+*screenshot*
+
+### 9. Most Populated City
+Return the single most populated city in the database.  
+*screenshot*
+
+### 10. Frequency of City Names
+List unique city names and show how many times each occurs.  
+*screenshot*
+
+### 11. City with the Smallest Population
+Identify the city with the lowest population value.  
+*screenshot*
+
+### 12. Country with the Largest Population
+Retrieve the country with the highest national population.  
+*screenshot*
+
+### 13. Capital of Spain
+Query the capital city of Spain.  
+*screenshot*
+
+### 14. Cities in Europe
+Return all cities located within European countries.  
+*screenshot*
+
+### 15. Average Population per Country
+Calculate the mean city population for each country.  
+*screenshot*
+
+### 16. Comparing Capital City Populations
+Compare the populations of capital cities across all countries.  
+*screenshot*
+
+### 17. Countries with Low Population Density
+Identify countries where population density is relatively low.  
+*screenshot*
+
+### 18. Cities with High GDP per Capita
+List cities with GDP per capita values above the global average.  
+*screenshot*
+
+### 19. Cities Ranked 31–40 by Population
+Display the cities ranked between 31st and 40th in terms of population size.  
+*screenshot*
+
+---
+
+## Tools Used
+- **MySQL Workbench** — for running and testing queries  
+- **World Sample Database** — dataset containing countries, cities, and population/economic statistics  
+
 
 ---
 
